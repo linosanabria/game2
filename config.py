@@ -1,0 +1,21 @@
+import pygame
+
+# Configurações de Tela
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 450
+FPS = 60
+TITLE = "Cyber Run"
+
+# Cores Cyberpunk (RGB)
+COLOR_BG = (10, 10, 25)
+COLOR_NEON_CYAN = (0, 243, 255)
+COLOR_NEON_PINK = (255, 0, 127)
+COLOR_NEON_YELLOW = (255, 230, 0)
+COLOR_WHITE = (255, 255, 255)
+
+# Física e Gameplay
+GRAVITY = 0.8
+JUMP_FORCE = -14
+GROUND_Y = SCREEN_HEIGHT - 60
+INITIAL_SPEED = 5
+SPEED_INCREMENT = 0.001
